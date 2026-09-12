@@ -1,6 +1,5 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: 'Linh Kiện Đức Huy Clone',
@@ -15,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="vi">
       <head>
-        <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
+        <script src="https://cdn.tailwindcss.com"></script>
       </head>
       <body className="bg-gray-100 font-sans antialiased">{children}</body>
     </html>
