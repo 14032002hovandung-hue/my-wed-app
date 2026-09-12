@@ -1,3 +1,5 @@
+import AddToCartBtn from '@/components/AddToCartBtn';
+import CartIcon from '@/components/CartIcon';
 import Link from 'next/link';
 import { getCategories, getProducts } from './actions';
 
@@ -13,7 +15,7 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
           <Link href="/" className="flex items-center gap-2 text-xl font-bold tracking-wide">
             <span className="bg-yellow-400 text-blue-900 px-2 py-1 rounded text-sm font-black">LINH KIỆN</span>
-            <span>ĐỨC HUY CLONE</span>
+            <span>LINH KIỆN ĐIỆN TỬ</span>
           </Link>
           <div className="flex-1 max-w-2xl">
             <input
